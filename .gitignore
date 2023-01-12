@@ -1,0 +1,17 @@
+*.tar
+log/*
+*.pth.tar
+*.mp4
+*.png
+*.jpg
+*.pth
+*.pyc
+*.jpeg
+app/checkpoints/*
+app/pretrained_models
+/app/output_videos
+app/source_images
+app/assets
+/__pycache__
+**/__pycache__/
+.DS_Store
