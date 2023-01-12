@@ -33,12 +33,19 @@ gcloud run deploy --image gcr.io/wombo-project/myimage --platform managed --port
 
 ## Make API calls
 
+Get request for test purpose
+
+```
 curl --request GET \
   --url {url_of_your_image}
 
+```
+
+Post request to reenact your face
+```
 curl -X 'POST' \
   {url_of_your_image} \
   -H 'accept: application/json' \
   -d ''
 
-curl -X 'POST' {url_of_your_image} -H 'accept: application/json'-d ''
+```
